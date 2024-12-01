@@ -7,5 +7,6 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
       alert("Please fill in both fields.");
       event.preventDefault(); // Prevent form submission
     }
+    window.location.href = 'p2.html';
   });
   
