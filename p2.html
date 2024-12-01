@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <h2>Dashboard</h2>
+    <ul>
+      <li><a href="#my-bookings" id="myBookingsLink">My Bookings</a></li>
+      <!-- You can add more links here -->
+    </ul>
+  </div>
+
+  <!-- Main Content Area -->
+  <div class="main-content">
+    <!-- Top Banner -->
+    <div class="top-banner">
+      <p id="greeting"></p>
+      <button id="logoutBtn">Logout</button>
+    </div>
+
+    <!-- Dashboard Content (e.g., My Bookings) -->
+    <div class="content-area">
+      <h3>Welcome to your dashboard</h3>
+      <div id="my-bookings" class="section">
+        <h4>Your Bookings</h4>
+        <p>No bookings found. This will be populated later.</p>
+      </div>
+      <!-- Add more sections as needed -->
+    </div>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
