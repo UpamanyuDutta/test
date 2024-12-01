@@ -7,6 +7,6 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
         event.preventDefault(); // Prevent form submission
     } else {
         // Only redirect if both fields are filled
-        window.location.href = 'test/p2.html';
+        window.location.href = 'p2.html';
     }
 });
